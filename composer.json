@@ -13,10 +13,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Sammy Kaye Powers",
-            "email": "me@sammyk.me",
-            "homepage": "http://sammyk.me",
-            "role": "Developer"
+            "name": "Paras Malhotra",
+            "email": "paras@insenseanalytics.com"
         }
     ],
     "require": {
@@ -36,21 +34,21 @@
     },
     "autoload": {
         "psr-4": {
-            "SammyK\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk"
+            "Insenseanalytics\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SammyK\\LaravelFacebookSdk\\Test\\": "tests"
+            "Insenseanalytics\\LaravelFacebookSdk\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SammyK\\LaravelFacebookSdk\\LaravelFacebookSdkServiceProvider"
+                "Insenseanalytics\\LaravelFacebookSdk\\LaravelFacebookSdkServiceProvider"
             ],
             "aliases": {
-                "Facebook": "SammyK\\LaravelFacebookSdk\\FacebookFacade"
+                "Facebook": "Insenseanalytics\\LaravelFacebookSdk\\FacebookFacade"
             }
         }
     }

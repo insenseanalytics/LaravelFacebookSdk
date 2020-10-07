@@ -1,13 +1,13 @@
-<?php namespace SammyK\LaravelFacebookSdk\Test;
+<?php namespace Insenseanalytics\LaravelFacebookSdk\Test;
 
 use Facebook\GraphNodes\GraphNode;
-use SammyK\LaravelFacebookSdk\SyncableGraphNodeTrait;
+use Insenseanalytics\LaravelFacebookSdk\SyncableGraphNodeTrait;
 
 class FakeModel extends \Illuminate\Database\Eloquent\Model
 {
     public static function firstOrNew(array $attributes)
     {
-        if( $attributes['facebook_id'] !== '1' ) {
+        if ($attributes['facebook_id'] !== '1') {
             return null;
         }
 

@@ -1,4 +1,4 @@
-<?php namespace SammyK\LaravelFacebookSdk;
+<?php namespace Insenseanalytics\LaravelFacebookSdk;
 
 use Illuminate\Contracts\Config\Repository as Config;
 use Facebook\Facebook;

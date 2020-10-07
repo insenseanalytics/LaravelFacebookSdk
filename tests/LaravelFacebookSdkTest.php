@@ -1,7 +1,7 @@
-<?php namespace SammyK\LaravelFacebookSdk\Test;
+<?php namespace Insenseanalytics\LaravelFacebookSdk\Test;
 
 use Mockery as m;
-use SammyK\LaravelFacebookSdk\LaravelFacebookSdk;
+use Insenseanalytics\LaravelFacebookSdk\LaravelFacebookSdk;
 
 class LaravelFacebookSdkTest extends \PHPUnit\Framework\TestCase
 {
